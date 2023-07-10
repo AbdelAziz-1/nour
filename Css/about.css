@@ -1,0 +1,209 @@
+.content{
+ background-image: url("../images/about\ us\ page.png");
+   background-size:cover; 
+    background-repeat: no-repeat;
+  color: white;
+  padding-bottom:40px;
+} 
+
+.content .link-newStyle ,  .another-style{
+color: white !important;
+font-size:20px !important;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left:50px;
+}
+.content .another-style{
+margin-left:5px;
+}
+.content .logo{
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+}
+
+.content .icon{
+  display:flex;
+  margin-right:60px ;
+}
+ .content .icon-newStyle{
+  color: white !important;
+  font-size:25px !important;
+    }
+
+ 
+.content h1{
+  
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Caveat', cursive;
+      padding-bottom:30px;
+   }   
+   .content p{
+    width: 80%;
+    margin: auto;
+   }
+
+   footer{
+    background-color: rgb(1, 1, 17);
+    padding-top:20px;
+
+  }
+  footer h6 a{
+    text-decoration: none !important;
+    color: white;
+   }
+   footer h6 a:hover {
+   color: rgb(231, 30, 30);
+   font-size:17px;
+   }
+   
+   footer .description{
+     color:white;
+     margin-top: 30px;
+     margin-left: 130px;
+   }
+   footer .description p{
+   font-weight: 100;
+   font-size:15px;
+   }
+   footer .contact-us{
+     margin-top:40px;
+     padding:10px 0px 15px 0px  ;
+     border-top:1px solid rgb(138, 132, 132);
+     text-align: center;
+   }
+   footer .contact-us .icon-newStyle{
+    color: white;
+    font-size:25px;
+    padding-left: 20px;
+    }
+   footer .footer-logo{
+       
+     width: 80px;
+         height: 80px;
+         margin-left: 40px;
+      
+    
+   }
+
+
+
+
+   @media (min-width:2000px)
+   {
+.content nav{
+       height: auto;
+     }
+.content .link-newStyle ,.another-style{
+       font-size:40px !important;
+     }
+.content .logo{
+       width: 220px;
+       height: 220px;
+       /* top: 100px; */
+     }
+     .content .icon-newStyle{
+      font-size:70px !important;
+        }
+ 
+.content h1{
+          font-size: 180px;
+       }   
+.content p{
+     font-size:30px;
+     width: 90%;
+       }
+footer h6 a ,h5{
+         font-size: 40px;
+     
+         
+        }
+        
+footer .description p{
+   
+        font-size:40px;
+        }
+       
+        footer .footer-logo{
+            
+          width: 180px;
+              height: 180px;  
+           
+         
+        }
+        footer .contact-us .icon-newStyle{
+          font-size:50px;
+          }
+          .icon-newStyle{
+       
+            font-size:70px !important;
+              }            
+     
+   } 
+    
+   
+@media (max-width:768px) 
+{
+  .content .link-newStyle{
+   
+    margin-left:0px;
+      }
+     
+    
+      .content h1{
+       
+        font-size:50px;
+        
+     } 
+  
+     .content p{
+       
+      font-size:12px;
+      
+   } 
+   footer .description{
+    margin:auto;
+  }
+  
+    
+}
+/* @media (max-width:767px) 
+   {
+       footer .description{
+         margin-left:0px;
+    }
+       
+       
+   }   */
+
+
+@media (max-width:600px) 
+{
+
+    
+  .content .link-newStyle{
+   
+    margin-left:0px;
+      }
+     
+      .content{
+        width: 100%;
+        
+      }
+
+     .content h1{
+       
+        font-size:30px;
+        
+     } 
+     .content p{
+       
+      font-size:10px;
+      
+   } 
+
+   footer .description{
+    margin-left:0px;
+} 
+  
+}
